@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: whitesmoke;
+    text-align: center;
+
+    /* Critical Code */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: blueviolet;
+}
+
+main {
+    background-color: black;
+
+    /* Critical Code */
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+footer {
+    background-color: red;
+}
